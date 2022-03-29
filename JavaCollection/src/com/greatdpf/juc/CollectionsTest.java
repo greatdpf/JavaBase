@@ -84,11 +84,22 @@ public class CollectionsTest {
         a4.ensureCapacity(10);
         Collections.copy(a4, a3);
         System.out.println(a4);
-        Collections.fill(a4, "1");
+        Collections.fill(a4, "c");
         System.out.println(a4);
 
+        System.out.println(Collections.frequency(a3, "a"));
 
+        ArrayList<String> sub = new ArrayList<>();
+        sub.add("a");
+        sub.add("b");
+        sub.add("c");
+        sub.add("c");
+        sub.add("e");
 
+        System.out.println(Collections.indexOfSubList(sub, a4));
+
+        List<String> list = Collections.synchronizedList(sub);
+        System.out.println(list.getClass());
 
     }
 
