@@ -1,5 +1,7 @@
 package com.greatdpf.map;
 
+import java.util.HashSet;
+
 /**
  * className: HashSetTest
  * description: HashSet 练习
@@ -8,5 +10,9 @@ package com.greatdpf.map;
  * version: 1.0
  */
 public class HashSetTest {
+    public static void main(String[] args) {
+        HashSet<String> hashSet = new HashSet<>();
+
+    }
 
 }
