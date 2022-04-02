@@ -1,5 +1,7 @@
 package com.greatdpf.map;
 
+import java.util.Hashtable;
+
 /**
  * className: HashtableTest
  * description: Hashtable 练习
@@ -8,5 +10,8 @@ package com.greatdpf.map;
  * version: 1.0
  */
 public class HashtableTest {
+    public static void main(String[] args) {
+        Hashtable hashtable = new Hashtable();
 
+    }
 }
