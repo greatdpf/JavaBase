@@ -14,15 +14,17 @@ import java.util.Map;
  * version: 1.0
  */
 public class MapTest {
+
     public static void main(String[] args) {
         Map<Integer, String> map = new HashMap<>();
+
         map.put(2, "a");
         map.put(1, "a");
         map.put(3, "c");
         map.put(4, "d");
         map.put(5, "e");
-        map.put(null,null);
-        System.out.println(map.put(6, null));
+        map.put(null,"f");
+        System.out.println(map.put(null, null));
         System.out.println(map);
         Map<Integer, String> m1 = new HashMap<>();
         m1.put(1, "a1");
